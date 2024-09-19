@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>El Rey Events</title>
+</head>
+
+<body>
+  <header class="header" id="home">
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">
+            <img src="assets/logo-white.png" alt="logo" />
+          </a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT US</a></li>
+        <li><a href="#service">SERVICES</a></li>
+        <li class="nav__logo">
+          <a href="#">
+            <img src="assets/logo-white.png" alt="logo" />
+          </a>
+        </li>
+        <li><a href="#client">CLIENT</a></li>
+        <li><a href="#blog">BLOG</a></li>
+        <li><a href="#contact">CONTACT US</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="section__container about__container" id="about">
+    <h2 class="section__header">WE CREATE UNFORGETTABLE <br>EXPERIENCES</h2>
+    <p class="section__description">
+      At El Rey Events, we bring your dreams to life with perfectly crafted events.
+      Our passion for precision ensures
+      every detail is memorable and unique, making your special moments unforgettable.
+    </p>
+    <p class="section__description">
+      From weddings to corporate gatherings, we curate personalized experiences that
+      leave a lasting impact. Let El Rey
+      Events turn your vision into cherished memories.
+    </p>
+    <img src="assets/logo-dark.png" alt="logo" />
+  </div>
+
+  <div class="section__container portfolio__container">
+    <h2 class="section__header">~ PPORTFOLIO ~</h2>
+    <div class="portfolio__grid">
+      <div class="portfolio__card">
+        <img src="assets/portfolio-1.jpg" alt="portfolio" />
+        <div class="portfolio__content">
+          <button class="btn">VIEW PPORTFOLIO</button>
+        </div>
+      </div>
+      <div class="portfolio__card">
+        <img src="assets/portfolio-2.jpg" alt="portfolio" />
+        <div class="portfolio__content">
+          <button class="btn">VIEW PPORTFOLIO</button>
+        </div>
+      </div>
+      <div class="portfolio__card">
+        <img src="assets/portfolio-3.jpg" alt="portfolio" />
+        <div class="portfolio__content">
+          <button class="btn">VIEW PPORTFOLIO</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="service" id="service">
+    <div class="section__container service__container">
+      <h2 class="section__header">~ SERVICES ~</h2>
+      <p class="section__description">
+        At El Rey Events, we offer a wide range of event management services designed to make your special moments
+        unforgettable. Whether it's a lavish wedding, a corporate event, or an intimate celebration, we provide tailored
+        solutions that suit your vision and style. Our team ensures every aspect is flawlessly executed, from planning
+        and design to coordination and entertainment. Let us take care of the details, so you can enjoy your event
+        stress-free.
+      </p>
+      <div class="service__grid">
+        <div class="service__card">
+          <h4>Wedding Planning</h4>
+          <p>
+            We create beautiful, seamless weddings tailored to your vision. From venue selection to decor, we handle
+            every detail with elegance and care.
+          </p>
+        </div>
+        <div class="service__card">
+          <h4>Corporate Events</h4>
+          <p>
+            Our team designs professional corporate events, including conferences, product launches, and team-building
+            activities, ensuring a smooth and successful experience.
+          </p>
+        </div>
+        <div class="service__card">
+          <h4>Social Gatherings</h4>
+          <p>
+            For birthdays, anniversaries, or private parties, we craft personalized events that capture the essence of
+            your celebration with style and creativity.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__container client__container" id="client">
+    <h2 class="section__header">~ TESTIMONIALS ~</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="client__card">
+            <img src="assets/client-1.jpg" alt="client" />
+            <p>
+              “El Rey Events exceeded our expectations for our wedding! From the initial planning stages to the final
+              send-off, their team handled every detail with professionalism and creativity. The event was seamless and
+              beautifully executed, making our special day unforgettable. Highly recommend their services to anyone
+              planning a major event!”
+            </p>
+            <h4>Sarah and Michael</h4>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client__card">
+            <img src="assets/client-2.jpg" alt="client" />
+            <p>
+              “We hired El Rey Events for our corporate conference, and they did an outstanding job. Their attention to
+              detail and organizational skills ensured that everything ran smoothly. The event was well-received by all
+              attendees, thanks to their exceptional planning and execution. Definitely worth considering for
+            </p>
+            <h4>The Johnson Family</h4>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client__card">
+            <img src="assets/client-3.jpg" alt="client" />
+            <p>
+              “I cannot thank El Rey Events enough for the fantastic birthday party they organized for me. Their team
+              was incredibly attentive and made sure every aspect was perfect. The creative touches and seamless
+              coordination made it a celebration to remember. If you want a stress-free event, El Rey Events is the way
+              to go!”
+            </p>
+            <h4>Emily and David</h4>
+          </div>
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <section class="section__container gallery__container">
+    <h2 class="section__header">~ GALLERY ~</h2>
+    <div class="gallery__grid">
+      <img src="assets/image (1).jpg" alt="gallery" />
+      <img src="assets/image (2).jpg" alt="gallery" />
+      <img src="assets/image (3).jpg" alt="gallery" />
+      <img src="assets/image (4).jpg" alt="gallery" />
+      <img src="assets/image (5).jpg" alt="gallery" />
+      <img src="assets/image (6).jpg" alt="gallery" />
+      <img src="assets/image (7).jpg" alt="gallery" />
+      <img src="assets/image (8).jpg" alt="gallery" />
+    </div>
+    <div class="gallery__btn">
+      <button class="btn">VIEW GALLERY</button>
+    </div>
+  </section>
+
+  <section class="blog" id="blog">
+    <div class="section__container blog__container">
+      <div class="blog__content">
+        <h2 class="section__header">~ LATEST BLOG ~</h2>
+        <h4>Transform Your Events into Unforgettable Memories</h4>
+        <p>
+          Since 2015, El Rey Events has been creating extraordinary experiences by turning your event visions into
+          reality. Whether it’s a wedding, corporate event, or private celebration, we handle every detail with
+          precision and creativity. Our personalized approach ensures a seamless and stress-free experience, leaving you
+          with lasting memories.
+        </p>
+        <div class="blog__btn">
+          <button class="btn">Read More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__container instagram__container">
+    <h2 class="section__header">~ INSTAGRAM ~</h2>
+    <div class="instagram__flex">
+      <a href=""><img src="/assets/INSTAGRAM (1).jpg" alt="INSTAGRAM"></a>
+      <a href=""><img src="/assets/INSTAGRAM (2).jpg" alt="INSTAGRAM"></a>
+      <a href=""><img src="/assets/INSTAGRAM (3).jpg" alt="INSTAGRAM"></a>
+      <a href=""><img src="/assets/INSTAGRAM (4).jpg" alt="INSTAGRAM"></a>
+      <a href=""><img src="/assets/INSTAGRAM (5).jpg" alt="INSTAGRAM"></a>
+      <a href=""><img src="/assets/INSTAGRAM (6).jpg" alt="INSTAGRAM"></a>
+      <a href=""><img src="/assets/INSTAGRAM (7).jpg" alt="INSTAGRAM"></a>
+      <a href=""><img src="/assets/INSTAGRAM (8).jpg" alt="INSTAGRAM"></a>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <img src="assets/logo-dark.png" alt="logo" />
+        <div class="footer__socials">
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+          <a href="#"><i class="ri-instagram-line"></i></a>
+          <a href="#"><i class="ri-youtube-fill"></i></a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <ul class="footer__links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT US</a></li>
+          <li><a href="#service">SERVICES</a></li>
+          <li><a href="#client">CLIENT</a></li>
+          <li><a href="#blog">BLOG</a></li>
+          <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>STAY IN TOUCH</h4>
+        <p>
+          Phone: (91)7597457704 <br> Email: elreyevents28@gmail.com <br> Time: Monday to saturday 10:00AM - 08:00PM
+        </p>
+      </div>
+    </div>
+    <div class="footer__bar">
+      Copyright © 2024 El Rey Events. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
